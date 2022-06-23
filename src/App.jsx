@@ -1,13 +1,17 @@
-import { Footer } from './components/Footer'
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './components/Router';
+
 import { Header } from './components/Header'
-import { Home } from './pages/Home'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
     <>
+    <BrowserRouter>
       <Header />
-      <Home />
+        <Router />
       <Footer />
+    </BrowserRouter>
     </>
   )
 }

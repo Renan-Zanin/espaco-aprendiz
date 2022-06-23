@@ -1,4 +1,5 @@
 import { Logo } from "./Logo";
+import { Link } from 'react-router-dom';
 
 export function Header() {
   return (
@@ -8,10 +9,10 @@ export function Header() {
       </div>
 
       <li className='list-none flex gap-x-8'>
-        <a href="/">HOME</a>
-        <a href="/">SOBRE</a>
-        <a href="/">ATENDIMENTO</a>
-        <a href="/">CONTATO</a>
+        <Link to="/">HOME</Link>
+        <Link to="/sobre">SOBRE</Link>
+        <Link to="/atendimento">ATENDIMENTO</Link>
+        <Link to="/contato">LOCALIZAÇÃO</Link>
       </li>
     </header>
   )

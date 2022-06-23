@@ -12,6 +12,14 @@ module.exports = {
       },
       backgroundImage: {
         home: "url('/img/bg-home.svg')",
+        about: "url('/img/bg-about.svg')",
+        attendance: "url('/img/bg-attendance.svg')",
+        contact: "url('/img/bg-contact.svg')",
+      },
+      animation: {
+        spin: 'spin 2s',
+        spin2: 'spin 2s 2s',
+        pulse: 'pulse 2s',
       },
     },
   },
