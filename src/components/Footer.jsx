@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <div>
 
-      <div className="w-full p-10 bg-gray-300 flex justify-around text-sm flex-wrap gap-y-4">
+      <div className="w-full p-10 bg-gray-300 flex justify-around text-sm flex-wrap gap-y-6">
         <div className="w-80">
           <p>
             O Espaço Aprendiz é um lugar de aprendizado e disciplina. Trabalhamos nas dificuldades do aluno e na solução delas. Nossos professores são qualificados e preparados.
