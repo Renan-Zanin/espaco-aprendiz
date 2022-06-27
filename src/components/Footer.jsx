@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <div>
 
-      <div className="w-full p-10 bg-gray-300 flex justify-around text-sm flex-wrap gap-y-6">
+      <div className="w-full p-10 bg-gray-300 flex justify-around text-sm flex-wrap gap-y-6 items-center">
         <div className="w-80">
           <p>
             O Espaço Aprendiz é um lugar de aprendizado e disciplina. Trabalhamos nas dificuldades do aluno e na solução delas. Nossos professores são qualificados e preparados.
@@ -12,10 +12,10 @@ export function Footer() {
         <div className="w-80 flex flex-col gap-4">
           <p>● (12) 98211-5543</p>
           <p>● espacoaprendiz@gmail.com</p>
-          <p>● São Jośe dos Campos-SP</p>
+          <p>● São José dos Campos - SP</p>
         </div>
 
-        <div className="w-80 flex sm:justify-center">
+        <div className="w-80 flex sm:justify-center gap-x-4">
           <a href="https://web.whatsapp.com/">
             <img src="./img/whatsapp.svg" alt="whatsapp" />
           </a>

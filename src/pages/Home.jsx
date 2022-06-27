@@ -6,9 +6,9 @@ import { SwiperGallery } from "../components/SwiperGallery";
 export function Home() {
   return (
     <div className="">
-      <div className="flex flex-col items-center bg-home bg-cover text-white">
+      <div className="flex flex-col p-24 items-center bg-home bg-cover text-white">
         <h1 className='text-5xl font-bold mt-20'>ACOMPANHAMENTO EDUCACIONAL</h1>
-        <Element color="black"/>
+        <Element color="white"/>
         <p className="text-sm">“A educação é o nosso passaporte para o futuro, pois, o <br/> amanhã pertence às pessoas que se preparam hoje.”</p>
         <Element />
         <span className="mb-4">MALCOLM X</span>

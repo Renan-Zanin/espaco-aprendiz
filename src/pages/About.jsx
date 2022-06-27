@@ -2,7 +2,7 @@ export function About() {
   {document.title = "EA | Sobre"}
   return (
     <main className="flex flex-col items-center justify-center">
-      <div className="w-full h-44 flex flex-col items-center justify-center bg-about bg-cover">
+      <div className="w-full p-32 flex flex-col items-center justify-center bg-about bg-cover">
         <span className="text-4xl text-white font-bold uppercase">
           Sobre
         </span>

@@ -5,7 +5,7 @@ export function Attendance() {
   }
   return (
     <>
-      <div className='w-full h-44 flex flex-col items-center justify-center bg-attendance bg-cover'>
+      <div className='w-full p-32 flex flex-col items-center justify-center bg-attendance bg-cover'>
         <span className='text-4xl text-white font-bold uppercase'>
           Atendimentos
         </span>
