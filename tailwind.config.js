@@ -8,7 +8,7 @@ module.exports = {
         'yellow-500': '#DA9A00',
       },
       fontFamily: {
-        sans: 'Roboto, sans-serif',
+        sans: 'Inter, sans-serif',
       },
       backgroundImage: {
         home: "url('/img/bg-home.svg')",

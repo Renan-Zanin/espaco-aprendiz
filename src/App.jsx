@@ -6,13 +6,13 @@ import { Footer } from './components/Footer'
 
 function App() {
   return (
-    <>
+    <div className="">
     <BrowserRouter>
       <Header />
         <Router />
       <Footer />
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 

@@ -4,17 +4,17 @@ import './header.css'
 
 export function Header() {
   return (
-    <header className='flex items-center justify-between bg-blue-500 w-full h-[80px] px-52 text-white'>
+    <header className='flex justify-between py-5 px-40 items-center flex-wrap bg-blue-500'>
       <NavLink to='/'>
         <Logo />
       </NavLink>
 
-      <li className='list-none flex gap-x-8 font-bold'>
+      <lu className="list-none flex-wrap flex gap-x-3 text-white font-bold">
         <NavLink to="/" activeClassName="active">HOME</NavLink>
         <NavLink to="/sobre" activeClassName="active">SOBRE</NavLink>
         <NavLink to="/atendimento" activeClassName="active">ATENDIMENTO</NavLink>
         <NavLink to="/contato" activeClassName="active">LOCALIZAÇÃO</NavLink>
-      </li>
+      </lu>
     </header>
   )
 }

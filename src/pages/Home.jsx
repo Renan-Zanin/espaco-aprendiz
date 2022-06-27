@@ -5,7 +5,7 @@ import { SwiperGallery } from "../components/SwiperGallery";
 
 export function Home() {
   return (
-    <>
+    <div className="">
       <div className="flex flex-col items-center bg-home bg-cover text-white">
         <h1 className='text-5xl font-bold mt-20'>ACOMPANHAMENTO EDUCACIONAL</h1>
         <Element color="black"/>
@@ -50,6 +50,6 @@ export function Home() {
           <img src="./img/child.svg" alt="" />
         </div>
       </main>
-    </>
+    </div>
   )
 }
