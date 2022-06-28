@@ -15,7 +15,7 @@ export function Attendance() {
         <div className='grid grid-cols-2 gap-y-20'>
           <div className='w-72 animate-pulse'>
             <Card
-              img='./img/acompanhamento.svg'
+              img='./img/acompanhamento.png'
               title='ACOMPANHAMENTO ESCOLAR'
               subtitle='FUNDAMENTAL I E II'
             />
@@ -34,7 +34,7 @@ export function Attendance() {
 
           <div className='w-72 animate-pulse'>
             <Card
-              img='./img/reforco.svg'
+              img='./img/reforco.png'
               title='REFORÇO ESCOLAR'
               subtitle='FUNDAMENTAL I E II'
             />
@@ -52,7 +52,7 @@ export function Attendance() {
 
           <div className='w-72 animate-pulse'>
             <Card
-              img='./img/atendimento.svg'
+              img='./img/atendimento.png'
               title='ATENDIMENTO'
               subtitle='PSICOPEDAGÓGICO'
             />

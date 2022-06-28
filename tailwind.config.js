@@ -11,10 +11,10 @@ module.exports = {
         sans: 'Inter, sans-serif',
       },
       backgroundImage: {
-        home: "url('/img/bg-home.svg')",
-        about: "url('/img/bg-about.svg')",
-        attendance: "url('/img/bg-attendance.svg')",
-        contact: "url('/img/bg-contact.svg')",
+        home: "url('/img/bg-home.png')",
+        about: "url('/img/bg-about.png')",
+        attendance: "url('/img/bg-attendance.png')",
+        contact: "url('/img/bg-contact.png')",
       },
       animation: {
         spin: 'spin 2s',

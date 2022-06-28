@@ -17,9 +17,9 @@ export function Home() {
         <h1 className="text-2xl font-bold">ATENDIMENTOS</h1>
         <div className=" mt-4 mb-8 w-14 border-b-4 border-black"></div>
         <div className="flex gap-8">
-          <Card img="./img/acompanhamento.svg" title="ACOMPANHAMENTO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
-          <Card img="./img/reforco.svg" title="REFORÇO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
-          <Card img="./img/atendimento.svg" title="ATENDIMENTO" subtitle="PSICOPEDAGÓGICO" />
+          <Card img="./img/acompanhamento.png" title="ACOMPANHAMENTO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
+          <Card img="./img/reforco.png" title="REFORÇO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
+          <Card img="./img/atendimento.png" title="ATENDIMENTO" subtitle="PSICOPEDAGÓGICO" />
         </div>
 
         <h1 className="mt-20 text-2xl font-bold">NOSSO ESPAÇO</h1>
