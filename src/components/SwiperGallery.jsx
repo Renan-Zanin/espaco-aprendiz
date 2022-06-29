@@ -31,21 +31,21 @@ export function SwiperGallery() {
         }}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination]}
-        className="w-[970px] h-[400px] rounded-md"
+        className="w-[90vw] h-[30vh] rounded-md"
       >
-        <SwiperSlide>
+        <SwiperSlide className="flex items-center">
           <img src="./img/gallery1.jpeg" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="flex items-center">
           <img src="./img/gallery2.jpeg" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="flex items-center">
           <img src="./img/gallery3.jpeg" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="flex items-center">
           <img src="./img/gallery4.jpeg" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="flex items-center">
           <img src="./img/gallery5.jpeg" />
         </SwiperSlide>
       </Swiper>
