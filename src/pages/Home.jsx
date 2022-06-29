@@ -13,10 +13,10 @@ export function Home() {
         <Element />
         <span className="mb-4">MALCOLM X</span>
       </div>
-      <main className="flex flex-col items-center mt-24 w-[70vw] flex-wrap">
+      <main className="flex flex-col items-center mt-24 sm:w-[90vw]  2xl-[70vw] flex-wrap">
         <h1 className="text-2xl font-bold">ATENDIMENTOS</h1>
         <div className=" mt-4 mb-8 w-14 border-b-4 border-black"></div>
-        <div className="flex-col md:flex gap-8">
+        <div className="flex-col sm:flex-row md:flex gap-x-8 my-4">
           <Card img="./img/acompanhamento.png" title="ACOMPANHAMENTO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
           <Card img="./img/reforco.png" title="REFORÇO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
           <Card img="./img/atendimento.png" title="ATENDIMENTO" subtitle="PSICOPEDAGÓGICO" />
