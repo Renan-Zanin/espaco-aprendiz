@@ -5,22 +5,22 @@ import { SwiperGallery } from "../components/SwiperGallery";
 
 export function Home() {
   return (
-    <div className="">
-      <div className="flex flex-col py-24 items-center justify-center bg-home bg-cover text-white">
+    <div className="flex flex-col items-center">
+      <div className="flex flex-col w-full py-24 items-center justify-center bg-home bg-cover text-white">
         <h1 className='text-2xl font-bold mt-20 sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl'>ACOMPANHAMENTO EDUCACIONAL</h1>
         <Element color="white"/>
         <p className="text-sm">“A educação é o nosso passaporte para o futuro, pois, o <br/> amanhã pertence às pessoas que se preparam hoje.”</p>
         <Element />
         <span className="mb-4">MALCOLM X</span>
       </div>
-      <main className="flex flex-col items-center mt-24">
-        {/* <h1 className="text-2xl font-bold">ATENDIMENTOS</h1>
+      <main className="flex flex-col items-center mt-24 w-[70vw] flex-wrap">
+        <h1 className="text-2xl font-bold">ATENDIMENTOS</h1>
         <div className=" mt-4 mb-8 w-14 border-b-4 border-black"></div>
-        <div className="flex flex-1 gap-8 flex-wrap">
+        <div className="flex-col md:flex gap-8">
           <Card img="./img/acompanhamento.png" title="ACOMPANHAMENTO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
           <Card img="./img/reforco.png" title="REFORÇO ESCOLAR" subtitle="FUNDAMENTAL I E II"/>
           <Card img="./img/atendimento.png" title="ATENDIMENTO" subtitle="PSICOPEDAGÓGICO" />
-        </div> */}
+        </div>
 
         <h1 className="mt-20 text-2xl font-bold">NOSSO ESPAÇO</h1>
         <div className=" mt-4 w-14 border-b-4 border-black"></div>

@@ -2,7 +2,7 @@ import { Element } from "./Element";
 
 export function Card(props) {
   return (
-    <div className='w-70 text-black h-80 bg-slate-300 shadow-lg shadow-slate-500 flex flex-col items-center rounded-md'>
+    <div className='w-50 sm:w-70 text-black h-80 bg-slate-300 shadow-lg shadow-slate-500 flex flex-col items-center rounded-md'>
       <img  className="mb-8" src={props.img} alt="image" />
       <strong>{props.title}</strong>
       <strong>{props.subtitle}</strong>
