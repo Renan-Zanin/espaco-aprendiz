@@ -2,9 +2,11 @@ import { Logo } from "./Logo";
 import { NavLink } from 'react-router-dom';
 import './header.css'
 
+// flex justify-between py-5 px-40 items-center flex-wrap bg-blue-500 min-w-full
+
 export function Header() {
   return (
-    <header className='flex justify-between py-5 px-40 items-center flex-wrap bg-blue-500'>
+    <header className='flex bg-blue-500 py-10 px-24 items-center justify-between'>
       <NavLink to='/'>
         <Logo />
       </NavLink>
