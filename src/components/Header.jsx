@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <>
-      <header className="flex bg-blue-500 py-5 px-24 items-center justify-between">
+      <header className="flex bg-blue-500 py-5 px-24 items-center justify-between top-0 fixed w-full z-100">
         <NavLink to="/">
           <Logo />
         </NavLink>

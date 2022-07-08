@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 
@@ -31,7 +30,7 @@ export function SwiperGallery() {
         }}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination]}
-        className="w-[90vw] h-[40vh] max-w-[1024px] max-h-[420px] rounded-md"
+        className="lg:max-w-[970px] max-h-[500px] rounded-md z-[-1] md:max-w-[650px] align-center max-w-[450px] md-flex"
       >
         <SwiperSlide className="flex items-center">
           <img src="./img/gallery1.jpeg" />

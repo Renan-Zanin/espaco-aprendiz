@@ -1,11 +1,12 @@
 export function Footer() {
   return (
     <div>
-
-      <div className="w-full p-10 bg-gray-300 flex justify-around text-sm flex-wrap gap-y-6 items-center">
+      <div className="w-full p-10 bg-gray-300 flex justify-center gap-x-20 text-sm flex-wrap gap-y-6 items-center">
         <div className="w-80">
           <p>
-            O Espaço Aprendiz é um lugar de aprendizado e disciplina. Trabalhamos nas dificuldades do aluno e na solução delas. Nossos professores são qualificados e preparados.
+            O Espaço Aprendiz é um lugar de aprendizado e disciplina.
+            Trabalhamos nas dificuldades do aluno e na solução delas. Nossos
+            professores são qualificados e preparados.
           </p>
         </div>
 
@@ -21,11 +22,11 @@ export function Footer() {
           </a>
 
           <a href="https://web.whatsapp.com/">
-            <img src="./img/instagram.svg" alt="whatsapp" />
+            <img src="./img/instagram.svg" alt="instagram" />
           </a>
 
           <a href="https://web.whatsapp.com/">
-            <img src="./img/facebook.svg" alt="whatsapp" />
+            <img src="./img/facebook.svg" alt="facebook" />
           </a>
         </div>
       </div>
@@ -35,5 +36,5 @@ export function Footer() {
         </p>
       </div>
     </div>
-  )
+  );
 }
