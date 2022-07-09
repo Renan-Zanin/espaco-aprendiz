@@ -1,27 +1,30 @@
-import { Card } from '../components/Card';
+import { Card } from "../components/Card";
+import { Element } from "../components/Element";
 export function Attendance() {
   {
-    document.title = 'EA | Atendimentos';
+    document.title = "EA | Atendimentos";
   }
   return (
-    <>
-      <div className='w-full p-32 flex flex-col items-center justify-center bg-attendance bg-cover'>
-        <span className='text-4xl text-white font-bold uppercase'>
+    <main className="flex flex-col items-center justify-center pt-[96px] -z-10 font-inter">
+      <div className="w-full flex flex-col items-center justify-center bg-attendance bg-cover h-[180px]">
+        <span className="text-4xl text-white font-bold uppercase">
           Atendimentos
         </span>
-        <div className=' mt-4 w-14 border-b-4 border-white'></div>
+        <Element color="white" border={4} margin={4} />
       </div>
-      <main className='flex flex-col mx-72 my-20'>
-        <div className='grid grid-cols-2 gap-y-20'>
-          <div className='w-72 animate-pulse'>
-            <Card
-              img='./img/acompanhamento.png'
-              title='ACOMPANHAMENTO ESCOLAR'
-              subtitle='FUNDAMENTAL I E II'
-            />
-          </div>
-          <div className='flex items-center'>
-            <p>
+
+      <section className="lg:w-[970px] md:w-[700px] sm:w-[550px] w-[300px] flex flex-col justify-center items-center">
+        <div className="flex flex-col mx-72 my-20">
+          <div className="flex md:flex-row flex-col md:justify-between justify-center items-center lg:w-[970px] md:w-[700px] sm:w-[550px] w-[300px] mb-20">
+            <div className="lg:w-72 md:w-64 w-60 animate-pulse mb-8 md:mb-0">
+              <Card
+                img="./img/acompanhamento.png"
+                title="ACOMPANHAMENTO ESCOLAR"
+                subtitle="FUNDAMENTAL I E II"
+              />
+            </div>
+
+            <p className="lg:w-[600px] md:w-[380px] w-[280px]">
               O acompanhamento escolar visa contribuir no desenvolvimento de
               cada criança. O desenvolvimento de diferentes habilidades é
               fundamental desde cedo, o mundo muda muito rápido e as crianças
@@ -31,16 +34,15 @@ export function Attendance() {
               cada criança, de forma individualizada!
             </p>
           </div>
-
-          <div className='w-72 animate-pulse'>
-            <Card
-              img='./img/reforco.png'
-              title='REFORÇO ESCOLAR'
-              subtitle='FUNDAMENTAL I E II'
-            />
-          </div>
-          <div className='flex items-center'>
-            <p>
+          <div className="flex md:flex-row flex-col grid- md:justify-between justify-center items-center lg:w-[970px] md:w-[700px] sm:w-[550px] w-[300px] mb-20">
+            <div className="lg:w-72 md:w-64 w-60 animate-pulse mb-8 md:mb-0">
+              <Card
+                img="./img/reforco.png"
+                title="REFORÇO ESCOLAR"
+                subtitle="FUNDAMENTAL I E II"
+              />
+            </div>
+            <p className="lg:w-[600px] md:w-[380px] w-[280px]">
               O reforço é composto por aulas de apoio com temas disciplinares e
               objetivos específicos direcionados a um desafio, muitas vezes,
               indicado para provas e avaliações momentâneas, quando o aluno
@@ -50,21 +52,21 @@ export function Attendance() {
             </p>
           </div>
 
-          <div className='w-72 animate-pulse'>
-            <Card
-              img='./img/atendimento.png'
-              title='ATENDIMENTO'
-              subtitle='PSICOPEDAGÓGICO'
-            />
-          </div>
-          <div className='flex items-center'>
-            <p>
+          <div className="flex md:flex-row flex-col grid- md:justify-between justify-center items-center lg:w-[970px] md:w-[700px] sm:w-[550px] w-[300px] mb-20">
+            <div className="lg:w-72 md:w-64 w-60 animate-pulse mb-8 md:mb-0">
+              <Card
+                img="./img/atendimento.png"
+                title="ATENDIMENTO"
+                subtitle="PSICOPEDAGÓGICO"
+              />
+            </div>
+            <p className="lg:w-[600px] md:w-[380px] w-[280px]">
               textex extex extex extex extex extex extex extex extex extex extex
-              extex extextoasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+              extex extextoasdfasdfasd
             </p>
           </div>
         </div>
-      </main>
-    </>
+      </section>
+    </main>
   );
 }

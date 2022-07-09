@@ -6,9 +6,18 @@ module.exports = {
       colors: {
         "blue-500": "#030057",
         "yellow-500": "#DA9A00",
+
+        gray: {
+          100: "#e1e1e6",
+          200: "#c4c4cc",
+          900: "#09090A",
+        },
+
+        black: "#09090A",
       },
       fontFamily: {
         inter: ["Inter, sans-serif"],
+        josefin: ["Josefin Sans, sans-serif"],
       },
       backgroundImage: {
         home: "url('/img/bg-home.png')",

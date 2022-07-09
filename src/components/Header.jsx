@@ -2,6 +2,7 @@ import { Logo } from "./Logo";
 import { NavLink } from "react-router-dom";
 import "./header.css";
 import { useState } from "react";
+import { MdMenu, MdClose } from "react-icons/md";
 
 // flex justify-between py-5 px-40 items-center flex-wrap bg-blue-500 min-w-full
 
@@ -10,19 +11,17 @@ export function Header() {
 
   return (
     <>
-      <header className="flex bg-blue-500 py-5 px-24 items-center justify-between top-0 fixed w-full z-100">
+      <header className="flex bg-blue-500 py-5 md:px-24 xl:px-[200px] items-center px-16 justify-between top-0 fixed w-full z-100">
         <NavLink to="/">
           <Logo />
         </NavLink>
 
         <section className="MOBILE-MENU flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2"
+            className="HAMBURGER-ICON space-y-2 flex"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
+            <MdMenu size={45} color="#faf9fb" />;
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -30,21 +29,10 @@ export function Header() {
               className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
               onClick={() => setIsNavOpen(false)}
             >
-              <svg
-                className="h-8 w-8 text-red-600"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
+              <MdClose size={45} color="#dc2626" />
             </div>
 
-            <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] ease-in-out text-blue-500 font-bold">
+            <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] ease-in-out text-blue-500 font-bold text-[20px]">
               <NavLink
                 to="/"
                 className=" my-8 uppercase"
@@ -81,7 +69,7 @@ export function Header() {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden list-none flex-wrap gap-x-3 text-gray-200 font-bold lg:flex">
+        <ul className="DESKTOP-MENU hidden list-none flex-wrap gap-x-6 text-gray-50 font-bold lg:flex z-50">
           <NavLink
             to="/"
             className="hover:text-yellow-200 transition-colors"
